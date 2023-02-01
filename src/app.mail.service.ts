@@ -10,8 +10,6 @@ const EmailSchema = z.object({
   body: z.string().min(5).max(1000),
 });
 
-type Email = z.infer<typeof EmailSchema>;
-
 @Injectable()
 export class EmailService {
   private readonly transporter: nodemailer.Transporter<SentMessageInfo>;
