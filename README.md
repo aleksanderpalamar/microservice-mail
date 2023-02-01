@@ -1,3 +1,12 @@
+## Environment variables
+
+EMAIL_HOST='smtp.office365.com'
+EMAIL_PORT='587'
+EMAIL_SECURE='true'
+EMAIL_USER=''
+EMAIL_PASSWORD=''
+HOST='localhost'
+
 ## Installation
 
 ```bash
